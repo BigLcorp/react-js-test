@@ -1,5 +1,5 @@
 {
-  "homepage": "https://biglcorp.github.io.react-js-test",
+  "homepage": "https://biglcorp.github.io/react-js-test,",
   "name": "react_app",
   "version": "0.1.0",
   "private": true,
@@ -14,11 +14,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
